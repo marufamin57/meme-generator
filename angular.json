@@ -93,6 +93,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/meme-generator/browser",
+            "netlifyToken": "nfp_9apSb5RLV4vJXEA7bFCUYNXV4Yvqj1YM6673",
+            "siteId": "0bcdd7a2-d5fc-4275-9788-70545d86cfc0"
+          }
         }
       }
     }
